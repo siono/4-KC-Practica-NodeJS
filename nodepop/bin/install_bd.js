@@ -3,7 +3,7 @@
 let async = require('async');
 
 //Conexión Mongo
-require('../lib/connectMongoose');
+const databaseUri=require('../lib/connectMongoose');
 let mongoose = require('mongoose');
 let conn = mongoose.connection;
 
@@ -80,7 +80,7 @@ async.series([
     console.log(results);
     conn.close();
     console.log('--------------------------------------------');
-    console.log('Instalacion base de datos nodepop terminada.');
+    console.log('Instalacion base de datos '+ databaseUri +' terminada.');
     console.log('--------------------------------------------');
 });
 

@@ -4,7 +4,6 @@
 ### Instalación
 
 	$ git clone https://github.com/siono/4-KC-Practica-NodeJS.git
-	$ cd nodepop
 	$ npm install
 
 ### Arrancar MongoDB

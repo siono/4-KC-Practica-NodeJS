@@ -1,5 +1,9 @@
 # Práctica WEB-API/Node.js/MongoDB
 
+### URL de acceso
+https://thewalkingdev.net/
+
+Web estática: http://54.166.105.31/
 
 ### Instalación
 
